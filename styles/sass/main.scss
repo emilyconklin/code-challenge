@@ -65,3 +65,12 @@ select.form-select {
     border-radius: 19px;
     border: 1px solid $sait-blue;
 }
+
+@media screen and (max-width: 450px) {
+    .table-container .selection-container {
+      justify-content: space-around!important;
+    }
+    select.form-select{
+        margin-left:0px;
+    }
+}
