@@ -1,0 +1,14 @@
+{
+  "name": "sait-code-challenge",
+  "version": "1.0.0",
+  "description": "Sait code challenge",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w"
+  },
+  "author": "Emily Conklin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

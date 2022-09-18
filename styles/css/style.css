@@ -1,0 +1,52 @@
+* {
+  font-family: 'DM Sans', sans-serif; }
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.table-container {
+  width: 1200px; }
+
+.delivery-title-row a {
+  color: #005eb8 !important;
+  text-decoration: none; }
+
+thead {
+  background-color: #a6192e;
+  color: white;
+  height: 52px; }
+
+table > tbody > tr > td,
+table > tbody > tr > th,
+table > tfoot > tr > td,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > thead > tr > th {
+  border: none; }
+
+/* status buttons */
+.status-button {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px; }
+
+.Open {
+  background: #40a33c; }
+
+.Closed {
+  background: #dc3545; }
+
+.Waitlisted {
+  background-color: #f8cc56; }
+
+/* selection drop-downs */
+select.form-select {
+  max-width: 170px;
+  margin-left: 14px;
+  margin-bottom: 10px;
+  border-radius: 19px;
+  border: 1px solid #005eb8; }
